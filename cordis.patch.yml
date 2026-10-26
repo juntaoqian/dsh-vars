@@ -1,0 +1,6 @@
+# dsh-vars — host plugin row.
+# Mounts the loopback-only variable API under /dsh-vars/api and renders the
+# 设置 → 变量 section. Variables live in ~/.dsh/plugins/dsh-vars/variables.json.
+- insert:
+    - id: dsh-vars
+      name: dsh-vars
