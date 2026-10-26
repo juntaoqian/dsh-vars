@@ -68,7 +68,7 @@ async function main() {
 
   await rm(profilePluginDir, { recursive: true, force: true })
   await mkdir(profilePluginDir, { recursive: true })
-  for (const entry of ['lib', 'cordis.patch.yml', 'package.json', 'README.md', 'LICENSE']) {
+  for (const entry of ['lib', 'icon.svg', 'cordis.patch.yml', 'package.json', 'README.md', 'LICENSE']) {
     const source = join(PLUGIN_ROOT, entry)
     try {
       await stat(source)

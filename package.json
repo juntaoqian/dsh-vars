@@ -4,6 +4,7 @@
   "description": "DSH 变量插件：新建带类型的变量，通过本机 HTTP GET/POST 读写，支持可选 Bearer token、WebSocket 变化订阅与本机地址展示",
   "type": "module",
   "license": "MIT",
+  "icon": "./icon.svg",
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
@@ -12,6 +13,7 @@
   },
   "files": [
     "lib/",
+    "icon.svg",
     "cordis.patch.yml",
     "LICENSE",
     "README.md"
