@@ -194,3 +194,14 @@ scripts/
 ## License
 
 MIT
+
+## 维护信息
+
+| 项 | 值 |
+| --- | --- |
+| 版本 | 0.2.0 |
+| 测试 | .github/workflows/ci.yml（push / PR） |
+| CI | node --test（22 例） |
+| 问题反馈 | https://github.com/juntaoqian/dsh-vars/issues |
+| 源码 | https://github.com/juntaoqian/dsh-vars |
+| 许可证 | MIT |

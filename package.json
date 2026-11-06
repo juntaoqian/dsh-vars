@@ -4,6 +4,14 @@
   "description": "DSH 变量插件：新建带类型的变量，通过本机 HTTP GET/POST 读写，支持可选 Bearer token、WebSocket 变化订阅与本机地址展示",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://github.com/juntaoqian/dsh-vars#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juntaoqian/dsh-vars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juntaoqian/dsh-vars/issues"
+  },
   "icon": "./icon.svg",
   "main": "lib/index.js",
   "exports": {
